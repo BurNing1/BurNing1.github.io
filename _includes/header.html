@@ -1,0 +1,9 @@
+<section class="site-nav">
+    <header>
+        <nav id="navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            {% for link in site.navigation %}
+                <a href="{{ link.url }}">{{ link.text }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+</section>

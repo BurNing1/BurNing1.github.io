@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffee, Code, Life, Love Shanghai, So Simple —— tommy</title>
+    <description>The blog of professional experience in software, and my life are recorded bit by bit</description>
+    <link>http://tommyknight.cn/</link>
+    <atom:link href="http://tommyknight.cn/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Mar 2015 14:02:50 +0800</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2015 14:02:50 +0800</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
+  puts &amp;quot;Hi, #{name}&amp;quot;
+end
+print_hi('Tom')
+#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Aug 2014 19:42:12 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2014/08/21/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2014/08/21/welcome-to-jekyll</guid>
+        
+        
+        <category>top</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>金桥多媒体融合信息云共享平台</title>
+        <description>&lt;p&gt;基于云架构的多媒体信息交互平台，用于解决客户利用视频会议等其他手段所不能解决的多地点多形式多内容的交互式共享问题。在系统架构上采用了SaaS,PaaS,IaaS三个层次的服务理念，能在各种硬件系统和平台上提供基于软件应用层的各类信息源共享、多媒体元数据描述集中存放、统一检索。已广泛应用与会商系统、研判系统、辅助决策、对抗演习、协作教学等应用需求中。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Jul 2014 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2014/07/20/works-MICCS</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2014/07/20/works-MICCS</guid>
+        
+        <category>云计算</category>
+        
+        <category>流媒体</category>
+        
+        <category>RESTful</category>
+        
+        <category>Groupwave</category>
+        
+        <category>Node</category>
+        
+        <category>WPF</category>
+        
+        <category>Backbone</category>
+        
+        <category>Bootstrap</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>.NET Warning CS0467 解决方案</title>
+        <description>&lt;p&gt;Warning CS0467: Ambiguity between method ‘Microsoft.Office.Interop.Word._Document.Close(ref object, ref object, ref object)’ and non-method ‘Microsoft.Office.Interop.Word.DocumentEvents2_Event.Close’. Using method group.&lt;/p&gt;
+
+&lt;p&gt;类似诸如：&lt;/p&gt;
+
+&lt;p&gt;warning CS0467: Ambiguity between method ‘Microsoft.Office.Interop.Word._Application.Quit(ref object, ref object, ref object)’ and non-method ‘Microsoft.Office.Interop.Word.ApplicationEvents4_Event.Quit’. Using method group.&lt;/p&gt;
+
+&lt;p&gt;warning CS0467: Ambiguity between method ‘Microsoft.Office.Interop.Excel._Workbook.Activate()’ and non-method ‘Microsoft.Office.Interop.Excel.WorkbookEvents_Event.Activate’. Using method group.&lt;/p&gt;
+
+&lt;p&gt;解决办法:&lt;/p&gt;
+
+&lt;p&gt;Microsoft.Office.Interop.Word.Application 改成 Microsoft.Office.Interop.Word._Application。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/8303969/how-to-eliminate-warning-about-ambiguity&quot;&gt;参考1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/8640594/compile-time-warning-when-using-microsoft-office-interop-word-document-close&quot;&gt;参考2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/10480119/warning-cs0467-when-using-microsoft-office-interop-word-document-close&quot;&gt;参考3&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Mar 2014 19:42:12 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2014/03/15/solution-vsto-CS0467</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2014/03/15/solution-vsto-CS0467</guid>
+        
+        <category>C#</category>
+        
+        <category>VSTO</category>
+        
+        <category>Office</category>
+        
+        
+        <category>top</category>
+        
+      </item>
+    
+      <item>
+        <title>使用WPF设计自定义控件</title>
+        <description>&lt;p&gt;在实际工作中，WPF提供的控件并不能完全满足不同的设计需求。这时，需要我们设计自定义控件。&lt;/p&gt;
+
+&lt;p&gt;这里LZ总结一些自己的思路，特性如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Coupling&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;UITemplate&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Behaviour&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Function Package&lt;/p&gt;
+
+    &lt;p&gt;下面举例说说在项目中我们经常用到调音台音量条，写一个自定义控件模拟调音台音量条。
+自定义控件SingnalLight,实现功能,如下：&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;接收来自外部的范围0~100的数值&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;实时显示接收数值&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;数值范围0~50显示绿色，50~85显示黄色，85~100显示红色，没有数值显示褐色&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;可在父控件上拖拽该控件&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;首先New WPF Application Project,在Ui上放2个Button,如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1     &amp;lt;Grid&amp;gt;
+2         &amp;lt;StackPanel Orientation=&amp;quot;Horizontal&amp;quot; VerticalAlignment=&amp;quot;Bottom&amp;quot;&amp;gt;
+3             &amp;lt;Button Content=&amp;quot;Start&amp;quot; Click=&amp;quot;Start_Click&amp;quot;&amp;gt;&amp;lt;/Button&amp;gt;
+4             &amp;lt;Button Content=&amp;quot;Stop&amp;quot; Click=&amp;quot;Stop_Click&amp;quot;&amp;gt;&amp;lt;/Button&amp;gt;
+5         &amp;lt;/StackPanel&amp;gt;
+6     &amp;lt;/Grid&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Start,Stop事件实现,如下:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1         private void Start_Click(object sender, RoutedEventArgs e) {
+2             SignalManager.Instance.Start();
+3         }
+4
+5         private void Stop_Click(object sender, RoutedEventArgs e) {
+6             SignalManager.Instance.Stop();
+7         }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;这里创建一个SignalManager类，在Start时开启一个计时器，每隔1秒生成一个0~100的随机数，并作为模拟数值输出。
+SignalManager类代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1 namespace SignalLightDemo.Business {
+ 2     public class SignalManager : DependencyObject {
+ 3         public static SignalManager Instance { get { return instance; } }
+ 4
+ 5         public int RandomA {
+ 6             get { return (int)GetValue(RandomAProperty); }
+ 7             set { SetValue(RandomAProperty, value); }
+ 8         }
+ 9
+10         SignalManager() {
+11             InitializationTimer();
+12         }
+13
+14         public void Start() {
+15             if (!timerA.Enabled) timerA.Start();
+16         }
+17
+18         public void Stop() {
+19             if (timerA.Enabled) timerA.Stop();
+20         }
+21
+22         private void InitializationTimer() {
+23             timerA = new Timer();
+24             timerA.Interval = INTERVAL;
+25             timerA.Elapsed += timerA_Elapsed;
+26         }
+27
+28         void timerA_Elapsed(object sender, ElapsedEventArgs e) {
+29             this.Dispatcher.BeginInvoke(new Action(() =&amp;gt; {
+30                 RandomA = a.Next(MAX_VALUE);
+31             }));
+32         }
+33
+34         public static readonly DependencyProperty RandomAProperty =
+35             DependencyProperty.Register(&amp;quot;RandomA&amp;quot;, typeof(int), typeof(SignalManager), new PropertyMetadata(0));
+36
+37         private Random a = new Random((int)DateTime.Now.Ticks);
+38         private const int MAX_VALUE = 100;
+39         private const double INTERVAL = 1000;
+40         private Timer timerA;
+41         private static SignalManager instance = new SignalManager();
+42     }
+43 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;下面来重点：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;创建自定义控件SingnalLight,ValueA为接受外部数值的属性,代码如下：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1     public class SingnalLight : ContentControl {
+ 2         public int ValueA {
+ 3             get { return (int)GetValue(ValueAProperty); }
+ 4             set { SetValue(ValueAProperty, value); }
+ 5         }
+ 6
+ 7
+ 8         public SingnalLight() {
+ 9             this.AllowDrop = true;
+10         }
+11
+12
+13         static SingnalLight() {
+14             DefaultStyleKeyProperty.OverrideMetadata(typeof(SingnalLight), new FrameworkPropertyMetadata(typeof(SingnalLight)));
+15         }
+16
+17
+18     }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;2.复写控件UITemplate&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1  &amp;lt;Style TargetType=&amp;quot;{x:Type control:SingnalLight}&amp;quot;&amp;gt;
+2         &amp;lt;Setter Property=&amp;quot;RenderTransform&amp;quot;&amp;gt;
+3             &amp;lt;Setter.Value&amp;gt;
+4                 &amp;lt;TranslateTransform X=&amp;quot;{Binding Path=X,RelativeSource={RelativeSource AncestorType={x:Type control:SingnalLight}}}&amp;quot;
+5                                     Y=&amp;quot;{Binding Path=Y,RelativeSource={RelativeSource AncestorType={x:Type control:SingnalLight}}}&amp;quot;/&amp;gt;
+6             &amp;lt;/Setter.Value&amp;gt;
+7         &amp;lt;/Setter&amp;gt;
+8         &amp;lt;Setter Property=&amp;quot;Template&amp;quot;&amp;gt;
+9             &amp;lt;Setter.Value&amp;gt;
+10                 &amp;lt;ControlTemplate&amp;gt;
+11                     &amp;lt;ControlTemplate.Resources&amp;gt;
+12                         &amp;lt;control:SingnalLightStatusConverter x:Key=&amp;quot;colorconverter&amp;quot;&amp;gt;&amp;lt;/control:SingnalLightStatusConverter&amp;gt;
+13                         &amp;lt;control:SingnalLightValueConverter x:Key=&amp;quot;valueconverter&amp;quot;&amp;gt;&amp;lt;/control:SingnalLightValueConverter&amp;gt;
+14                     &amp;lt;/ControlTemplate.Resources&amp;gt;
+15                     &amp;lt;StackPanel&amp;gt;
+16                         &amp;lt;TextBlock Text=&amp;quot;{Binding Path=ValueA,RelativeSource={RelativeSource AncestorType={x:Type control:SingnalLight}}}&amp;quot;&amp;gt;&amp;lt;/TextBlock&amp;gt;
+17                         &amp;lt;TextBlock Text=&amp;quot;100&amp;quot;&amp;gt;&amp;lt;/TextBlock&amp;gt;
+18                         &amp;lt;Border
+19                             x:Name=&amp;quot;bd1&amp;quot;
+20                             Height=&amp;quot;{Binding Path=LightHeight,RelativeSource={RelativeSource AncestorType={x:Type control:SingnalLight}}}&amp;quot;
+21                             SnapsToDevicePixels=&amp;quot;True&amp;quot;
+22                             BorderBrush=&amp;quot;Black&amp;quot; BorderThickness=&amp;quot;1&amp;quot; Background=&amp;quot;Transparent&amp;quot;&amp;gt;
+23                             &amp;lt;Rectangle Fill=&amp;quot;{Binding Path=ValueA,
+24                                                       RelativeSource={RelativeSource AncestorType={x:Type control:SingnalLight}},
+25                                                       Converter={StaticResource ResourceKey=colorconverter}}&amp;quot;
+26                                        VerticalAlignment=&amp;quot;Bottom&amp;quot;&amp;gt;
+27                                 &amp;lt;Rectangle.Height&amp;gt;
+28                                     &amp;lt;MultiBinding Converter=&amp;quot;{StaticResource ResourceKey=valueconverter}&amp;quot;&amp;gt;
+29                                         &amp;lt;Binding Path=&amp;quot;ValueA&amp;quot; RelativeSource=&amp;quot;{RelativeSource AncestorType={x:Type control:SingnalLight}}&amp;quot;&amp;gt;&amp;lt;/Binding&amp;gt;
+30                                         &amp;lt;Binding Path=&amp;quot;Height&amp;quot; ElementName=&amp;quot;bd1&amp;quot;&amp;gt;&amp;lt;/Binding&amp;gt;
+31                                     &amp;lt;/MultiBinding&amp;gt;
+32                                 &amp;lt;/Rectangle.Height&amp;gt;
+33                             &amp;lt;/Rectangle&amp;gt;
+34                         &amp;lt;/Border&amp;gt;
+35                         &amp;lt;TextBlock Text=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/TextBlock&amp;gt;
+36                     &amp;lt;/StackPanel&amp;gt;
+37                 &amp;lt;/ControlTemplate&amp;gt;
+38             &amp;lt;/Setter.Value&amp;gt;
+39         &amp;lt;/Setter&amp;gt;
+40     &amp;lt;/Style&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;3.接受值判断，SingnalLight通过实现IValueConverter和Override Arrange &amp;amp; Measure Methods，实现了UI呈现的绑定：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1     public class SingnalLightStatusConverter : IValueConverter {
+ 2         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+ 3             SolidColorBrush result = Brushes.Transparent;
+ 4             if (value.GetType() == typeof(int)) {
+ 5                 var color = System.Convert.ToInt32(value);
+ 6                 if (color &amp;lt; 50) result = Brushes.Green;
+ 7                 else if (color &amp;lt; 85 &amp;amp;&amp;amp; color &amp;gt;= 50) result = Brushes.Yellow;
+ 8                 else if (color &amp;lt;= 100 &amp;amp;&amp;amp; color &amp;gt;= 85) result = Brushes.Red;
+ 9                 else result = Brushes.Gray;
+10             }
+11             return result;
+12         }
+13
+14         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+15             throw new NotImplementedException();
+16         }
+17     }
+18
+19     public class SingnalLightValueConverter : IMultiValueConverter {
+20         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+21             double result = 0;
+22             if (values[0].GetType() == typeof(int) &amp;amp;&amp;amp; values[1].GetType() == typeof(double)) {
+23                 result = (double)values[1] / 100 * System.Convert.ToDouble(values[0]);
+24             }
+25             return result;
+26         }
+27
+28         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, System.Globalization.CultureInfo culture) {
+29             throw new NotImplementedException();
+30         }
+31     }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1         protected override Size MeasureOverride(Size constraint) {
+2             if (ActualHeight &amp;gt; 0) LightHeight = ActualHeight * .7;
+3             return base.MeasureOverride(constraint);
+4         }
+5
+6         protected override Size ArrangeOverride(Size arrangeBounds) {
+7             return base.ArrangeOverride(arrangeBounds);
+8         }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;4.控件支持拖拽，覆写MouseDown,MouseMove,MouseUp方法。这样写的好处是，如果在父控件的事件中实现Drag，父控件如果有多个对象，这样逻辑会十分混乱。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1         protected override void OnMouseMove(MouseEventArgs e) {
+ 2             base.OnMouseMove(e);
+ 3             if (e.LeftButton == MouseButtonState.Pressed) {
+ 4                 _currentPoint = e.GetPosition(this);
+ 5                 X += _currentPoint.X - _startPoint.X;
+ 6                 Y += _currentPoint.Y - _startPoint.Y;
+ 7             }
+ 8         }
+ 9
+10         protected override void OnMouseDown(MouseButtonEventArgs e) {
+11             base.OnMouseDown(e);
+12             _startPoint = e.GetPosition(this);
+13             this.CaptureMouse();
+14         }
+15
+16         protected override void OnMouseUp(MouseButtonEventArgs e) {
+17             base.OnMouseUp(e);
+18             this.ReleaseMouseCapture();
+19         }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;SingnalLight完整代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1 using System;
+  2 using System.Collections.Generic;
+  3 using System.Linq;
+  4 using System.Text;
+  5 using System.Threading.Tasks;
+  6 using System.Windows;
+  7 using System.Windows.Controls;
+  8 using System.Windows.Data;
+  9 using System.Windows.Input;
+ 10 using System.Windows.Media;
+ 11
+ 12 namespace SignalLightDemo.Control {
+ 13     public class SingnalLight : ContentControl {
+ 14         public int ValueA {
+ 15             get { return (int)GetValue(ValueAProperty); }
+ 16             set { SetValue(ValueAProperty, value); }
+ 17         }
+ 18
+ 19         public double LightHeight {
+ 20             get { return (double)GetValue(LightHeightProperty); }
+ 21             set { SetValue(LightHeightProperty, value); }
+ 22         }
+ 23
+ 24         public double X {
+ 25             get { return (double)GetValue(XProperty); }
+ 26             set { SetValue(XProperty, value); }
+ 27         }
+ 28
+ 29         public double Y {
+ 30             get { return (double)GetValue(YProperty); }
+ 31             set { SetValue(YProperty, value); }
+ 32         }
+ 33
+ 34         public SingnalLight() {
+ 35             this.AllowDrop = true;
+ 36         }
+ 37
+ 38         protected override void OnMouseMove(MouseEventArgs e) {
+ 39             base.OnMouseMove(e);
+ 40             if (e.LeftButton == MouseButtonState.Pressed) {
+ 41                 _currentPoint = e.GetPosition(this);
+ 42                 X += _currentPoint.X - _startPoint.X;
+ 43                 Y += _currentPoint.Y - _startPoint.Y;
+ 44             }
+ 45         }
+ 46
+ 47         protected override void OnMouseDown(MouseButtonEventArgs e) {
+ 48             base.OnMouseDown(e);
+ 49             _startPoint = e.GetPosition(this);
+ 50             this.CaptureMouse();
+ 51         }
+ 52
+ 53         protected override void OnMouseUp(MouseButtonEventArgs e) {
+ 54             base.OnMouseUp(e);
+ 55             this.ReleaseMouseCapture();
+ 56         }
+ 57
+ 58         protected override Size MeasureOverride(Size constraint) {
+ 59             if (ActualHeight &amp;gt; 0) LightHeight = ActualHeight * .7;
+ 60             return base.MeasureOverride(constraint);
+ 61         }
+ 62
+ 63         protected override Size ArrangeOverride(Size arrangeBounds) {
+ 64             return base.ArrangeOverride(arrangeBounds);
+ 65         }
+ 66
+ 67         static SingnalLight() {
+ 68             DefaultStyleKeyProperty.OverrideMetadata(typeof(SingnalLight), new FrameworkPropertyMetadata(typeof(SingnalLight)));
+ 69         }
+ 70
+ 71         public static readonly DependencyProperty LightHeightProperty =
+ 72             DependencyProperty.Register(&amp;quot;LightHeight&amp;quot;, typeof(double), typeof(SingnalLight), new PropertyMetadata((double)0));
+ 73
+ 74         public static readonly DependencyProperty ValueAProperty =
+ 75             DependencyProperty.Register(&amp;quot;ValueA&amp;quot;, typeof(int), typeof(SingnalLight), new PropertyMetadata(0));
+ 76
+ 77         public static readonly DependencyProperty XProperty =
+ 78             DependencyProperty.Register(&amp;quot;X&amp;quot;, typeof(double), typeof(SingnalLight), new PropertyMetadata((double)0));
+ 79
+ 80         public static readonly DependencyProperty YProperty =
+ 81             DependencyProperty.Register(&amp;quot;Y&amp;quot;, typeof(double), typeof(SingnalLight), new PropertyMetadata((double)0));
+ 82
+ 83         private Point _startPoint;
+ 84         private Point _currentPoint;
+ 85     }
+ 86
+ 87     public class SingnalLightStatusConverter : IValueConverter {
+ 88         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+ 89             SolidColorBrush result = Brushes.Transparent;
+ 90             if (value.GetType() == typeof(int)) {
+ 91                 var color = System.Convert.ToInt32(value);
+ 92                 if (color &amp;lt; 50) result = Brushes.Green;
+ 93                 else if (color &amp;lt; 85 &amp;amp;&amp;amp; color &amp;gt;= 50) result = Brushes.Yellow;
+ 94                 else if (color &amp;lt;= 100 &amp;amp;&amp;amp; color &amp;gt;= 85) result = Brushes.Red;
+ 95                 else result = Brushes.Gray;
+ 96             }
+ 97             return result;
+ 98         }
+ 99
+100         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+101             throw new NotImplementedException();
+102         }
+103     }
+104
+105     public class SingnalLightValueConverter : IMultiValueConverter {
+106         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
+107             double result = 0;
+108             if (values[0].GetType() == typeof(int) &amp;amp;&amp;amp; values[1].GetType() == typeof(double)) {
+109                 result = (double)values[1] / 100 * System.Convert.ToDouble(values[0]);
+110             }
+111             return result;
+112         }
+113
+114         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, System.Globalization.CultureInfo culture) {
+115             throw new NotImplementedException();
+116         }
+117     }
+118 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;界面调用：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;1 &amp;lt;Window x:Class=&amp;quot;SignalLightDemo.MainWindow&amp;quot;
+2         xmlns=&amp;quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&amp;quot;
+3         xmlns:x=&amp;quot;http://schemas.microsoft.com/winfx/2006/xaml&amp;quot;
+4         xmlns:control=&amp;quot;clr-namespace:SignalLightDemo.Control&amp;quot;
+5         xmlns:business=&amp;quot;clr-namespace:SignalLightDemo.Business&amp;quot;
+6         Title=&amp;quot;SignalLight&amp;quot; Height=&amp;quot;600&amp;quot; Width=&amp;quot;800&amp;quot;&amp;gt;
+7     &amp;lt;Grid&amp;gt;
+8         &amp;lt;control:SingnalLight Width=&amp;quot;50&amp;quot; Height=&amp;quot;300&amp;quot;
+9                              ValueA=&amp;quot;{Binding Source={x:Static business:SignalManager.Instance},Path=RandomA}&amp;quot;&amp;gt;&amp;lt;/control:SingnalLight&amp;gt;
+10         &amp;lt;StackPanel Orientation=&amp;quot;Horizontal&amp;quot; VerticalAlignment=&amp;quot;Bottom&amp;quot;&amp;gt;
+11             &amp;lt;Button Content=&amp;quot;Start&amp;quot; Click=&amp;quot;Start_Click&amp;quot;&amp;gt;&amp;lt;/Button&amp;gt;
+12             &amp;lt;Button Content=&amp;quot;Stop&amp;quot; Click=&amp;quot;Stop_Click&amp;quot;&amp;gt;&amp;lt;/Button&amp;gt;
+13         &amp;lt;/StackPanel&amp;gt;
+14     &amp;lt;/Grid&amp;gt;
+15 &amp;lt;/Window&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 23 May 2013 04:42:12 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2013/05/23/wpf-design-control</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2013/05/23/wpf-design-control</guid>
+        
+        <category>C#</category>
+        
+        <category>WPF</category>
+        
+        
+        <category>top</category>
+        
+      </item>
+    
+      <item>
+        <title>获得软件工程硕士学位</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/dlut.jpg&quot; alt=&quot;Image&quot; /&gt; 2009.9 ～ 2012.6 于大连理工大学研究生院在职攻读 软件工程 学位&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2011 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2011/09/01/works-dllg</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2011/09/01/works-dllg</guid>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>机票商城-97Ticket.com</title>
+        <description>&lt;p&gt;注重WEB2.0和客户自助，针对背包客及对机票价格敏感并有自主需求的年轻群体。利用技术手段取代传统电话中心服务的模式，帮助客户摒弃底层细节。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Apr 2011 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2011/04/20/works-97ticket</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2011/04/20/works-97ticket</guid>
+        
+        <category>Web</category>
+        
+        <category>eterm</category>
+        
+        <category>垂直细分</category>
+        
+        <category>一站式机票</category>
+        
+        <category>自动出票</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>加入金桥信息</title>
+        <description>&lt;p&gt;2009年2月加入上海金桥信息股份有限公司。与公司共同经历改制、上市，业务发展的急速扩张。个人也完成纯技术向技术管理的成长。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Feb 2009 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2009/02/26/works-join-shgbit</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2009/02/26/works-join-shgbit</guid>
+        
+        <category>系统集成</category>
+        
+        <category>信息技术</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>加入我友网</title>
+        <description>&lt;p&gt;负责SNS社区服务端业务系统开发。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Dec 2008 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2008/12/01/works-join-woyo</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2008/12/01/works-join-woyo</guid>
+        
+        <category>Web</category>
+        
+        <category>SNS</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>页游-封神无敌</title>
+        <description>&lt;p&gt;客户端使用Adobe AS3实现超炫2.5D的画面效果，服务端基于SFS构建，使用Terracotta集群框架和Red5流媒体分发框架。具有良好的扩容性，实现百万级玩家在线游戏。在其中负责服务端业务系统设计，开发包括Lobby系统，装备系统，战斗系统，商城系统。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Sep 2008 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2008/09/15/works-wswd</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2008/09/15/works-wswd</guid>
+        
+        <category>WebGame</category>
+        
+        <category>Red5</category>
+        
+        <category>SFS</category>
+        
+        <category>Terracotta</category>
+        
+        <category>Java</category>
+        
+        <category>AS3</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>加入浪潮国际</title>
+        <description>&lt;p&gt;2007年年中，加入浪潮集团浪潮国际海外事业部，供职于微软美国总部Office 14 Team，任软件工程师。Redmond本是大多数程序员心中的梦。当然目标只有一个–朝圣。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Aug 2007 00:00:00 +0800</pubDate>
+        <link>http://tommyknight.cn/posts/2007/08/30/works-join-inspur</link>
+        <guid isPermaLink="true">http://tommyknight.cn/posts/2007/08/30/works-join-inspur</guid>
+        
+        <category>Microsoft</category>
+        
+        <category>BillGates</category>
+        
+        <category>Office</category>
+        
+        <category>Redmond</category>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+  </channel>
+</rss>

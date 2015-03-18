@@ -1,189 +1,25 @@
-<!DOCTYPE HTML>
-<html class="no-js">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>BIGFAT - Single page portfolio template</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="style/switcher.css" media="all" />
-    <script type="text/javascript" src="js/modernizr.js"></script>
-</head>
-<body class="BGribbons">
-<div id="overlay"></div>
-<div id="lightbulb"></div>
-<div id="container">
-
-<div id="nav"  class="unit static twoWide threeHigh">
-    <div id="logo"></div>
-
-    <ul class="filter">
-        <li class="selected" id="all"><a  href="#" data-filter="*"><span>All</span></a></li>
-        <li id="info"><a href="#"  data-filter=".info"><span>Info</span></a></li>
-        <li id="photography"><a href="#"  data-filter=".photography"><span>Photography</span></a></li>
-        <li id="illustration"><a href="#"  data-filter=".illustration"><span>Illustration</span></a></li>
-        <li id="video"><a href="#"  data-filter=".video"><span>Video</span></a></li>
-    </ul>
-
+---
+layout: home
+---
+<div>
+    <address>
+        <img src="/images/avatar.jpg" class="big-avatar">
+        <p>
+            <span class="muted"> <br/>--<br/>"Live in Shanghai,will code for bananas.<br>Like free, programming, money, stock, jewelry, snooker &amp; girl."</span>
+        </p>
+    </address>
 </div>
-<div class="unit static threeWide" id="social">
-    <ul class="social">
-        <li id="stumbleupon"><a href="#"></a></li>
-        <li id="soundcloud"><a href="#"></a></li>
-        <li id="deviantart"><a href="#"></a></li>
-        <li id="delicious"><a href="#"></a></li>
-        <li id="flickr"><a href="#"></a></li>
-        <li id="vimeo"><a href="#"></a></li>
-        <li id="youtube"><a href="#"></a></li>
-        <li id="facebook"><a href="#"></a></li>
-        <li id="twitter"><a href="#"></a></li>
-    </ul>
+<div class="home">
+  <h1 class="page-heading">Top 5 News</h1>
+  <ul class="post-list">
+    {% for post in site.categories.top limit:5 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 </div>
-<div class="unit item oneWide oneHigh info open" id="hello">
-    <h4 class="infoHeader">Hello</h4>
-
-    <div class="content">
-        <div class="column-three last">
-            <h1 class="center right">Francis BLOGS</h1>
-            <p class="tagline center right">I Make things</p>
-
-        </div>
-    </div>
-
-</div>
-<div class="unit item oneWide oneHigh info" id="who">
-    <h4 class="infoHeader">Who?</h4>
-    <div class="content cf">
-        <div class="column">
-            <img src="images/bigfat4.png" />
-        </div>
-    </div>
-</div>
-<div class="unit item oneWide oneHigh print illustration" id="road">
-    <img class="backdrop"  src="images/myself1.jpg" />
-</div>
-
-<div class="unit item oneWide oneHigh info" id="profile">
-    <h4 class="infoHeader">It's ME</h4>
-</div>
-<div class="unit item oneWide oneHigh illustration print" id="nakedlunch">
-    <h4>黄朝晖</h4>
-    <h5 class="categories">ChaoHui.Huang</h5>
-    <h5 class="caption">This is my name.This is my BLOG show</h5>
-    <!--<img  class="backdrop"  src="images/nakedlunchthumb.jpg" />-->
-    <!--<div class="content" image-id="images/nakedlunch.png"></div>-->
-</div>
-
-<div class="unit item oneWide oneHigh info" id="backgrounds">
-    <a href="gb.html" class="link"><h4 class="infoHeader">MY COMPANY</h4></a>
-</div>
-
-<div class="unit item oneWide oneHigh illustration" id="man">
-    <img  class="backdrop"  src="images/event1.jpg" />
-    <div class="content" image-id="images/event1.jpg"></div>
-</div>
-
-<div class="unit item oneWide twoHigh photography" id="alex">
-
-    <h4>徐志雷</h4>
-	<h4>罗成荣</h4>
-    <h5 class="categories">BurNing</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>
-        he is a e-sports player with DOTA. because of his excellent operation and stabilize expression.we
-        called him——no1. in the universe
-    </h5>
-    <img class="backdrop" src="images/burning.jpg" />
-	<img class="backdrop" src="images/lcr.jpg" />
-</div>
-<div class="unit item oneWide oneHigh info" id="features">
-    <h4 class="infoHeader">his big fan</h4>
-</div>
-
-<div class="unit item oneWide oneHigh video" id="porquesi">
-    <h4>i love to play</h4>
-    <h5 class="categories">dota</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>
-        “What is Dota?” Dota began as a user-made modification for Warcraft 3 and has grown into one of the most played online games in the world.</h5>
-</div>
-<div class="unit item oneWide twoHigh photography" id="sam">
-    <h4>be best at</h4>
-    <h5 class="categories">magina</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>
-        award for him, ice frog get this hero a new name——"burning" with a golden id</h5>
-    <img class="backdrop" src="images/magina.png" />
-</div>
-<div class="unit item oneWide oneHigh info" id="contact">
-    <h4 class="infoHeader">the game</h4>
-</div>
-<div class="unit item oneWide oneHigh video" id="donthugme">
-    <img  class="backdrop"  src="images/dota.jpg" />
-</div>
-
-<div class="unit item oneWide oneHigh info" id="typography">
-    <h4 class="infoHeader">Full Width</h4>
-</div>
-
-<div class="unit item oneWide twoHigh photography" id="ben">
-    <h4>Ben</h4>
-    <h5 class="categories">photography</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This is a caption with a project link.</h5>
-    <img class="backdrop" src="images/benthumb.jpg" />
-    <div class="content" image-id="images/ben.png"></div>
-</div>
-
-<div class="unit item oneWide oneHigh illustration print" id="target">
-    <h4>Target</h4>
-    <h5 class="categories">illustration</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This is a caption with a project link.</h5>
-    <img  class="backdrop"  src="images/targetthumb.jpg" />
-    <div class="content" image-id="images/target.png"></div>
-</div>
-<div class="unit item oneWide oneHigh video" id="nyan">
-    <h4>Nyan Cat</h4>
-    <h5 class="categories">video</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This caption appears above the purpose built YouTube controls. Nyan!</h5>
-    <img  class="backdrop"  src="images/nyan.png" />
-    <div class="content" video-id="QH2-TGUlwu4" width-id="567" height-id="414"></div>
-</div>
-<div class="unit item twoWide oneHigh print illustration" id="charmer">
-    <h4>How to be a charmer</h4>
-    <h5 class="categories">print, illustration</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This is a caption with a project link.</h5>
-    <img class="backdrop"  src="images/charmerthumb.jpg" />
-    <div class="content" image-id="images/charmer.png"></div>
-</div>
-
-<div class="unit item oneWide oneHigh illustration" id="woman">
-    <h4>Woman (no caption)</h4>
-    <h5 class="categories">illustration</h5>
-    <img class="backdrop" src="images/womanthumb.jpg" />
-    <div class="content" image-id="images/woman.png"></div>
-</div>
-
-<div class="unit item oneWide oneHigh illustration" id="simon">
-    <h4>Simon Says</h4>
-    <h5 class="categories">illustration</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This is a caption with a project link.</h5>
-    <img class="backdrop"  src="images/simonthumb.jpg" />
-    <div class="content" image-id="images/simon.png"></div>
-</div>
-<div class="unit item oneWide oneHigh illustration" id="sleep">
-    <h4>Sleep</h4>
-    <h5 class="categories">illustration</h5>
-    <h5 class="caption includesLink"><a href="#" class="projectLink"></a>This is a caption with a project link.</h5>
-    <img class="backdrop" src="images/sleepthumb.jpg" />
-    <div class="content" image-id="images/sleep.png"></div>
-</div>
-</div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="js/jquery.waitforimages.js"></script>
-<script type="text/javascript" src="js/jquery.tubeplayer.min.js"></script>
-<script type="text/javascript" src="js/bigfat.js"></script>
-<script type="text/javascript" src="js/switcher.js"></script>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
-</html>
