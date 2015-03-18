@@ -1,25 +1,12 @@
 ---
-layout: home
+layout: index
 ---
-<div>
-    <address>
-        <img src="/images/avatar.jpg" class="big-avatar">
-        <p>
-            <span class="muted"> <br/>--<br/>"Live in Shanghai,will code for bananas.<br>Like free, programming, money, stock, jewelry, snooker &amp; girl."</span>
-        </p>
-    </address>
-</div>
-<div class="home">
-  <h1 class="page-heading">Top 5 News</h1>
-  <ul class="post-list">
-    {% for post in site.categories.top limit:5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-</div>
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,9 +1,4 @@
-<section class="site-nav">
-    <header>
-        <nav id="navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-            {% for link in site.navigation %}
-                <a href="{{ link.url }}">{{ link.text }}</a>
-            {% endfor %}
-        </nav>
-    </header>
-</section>
+<header>
+<a id="go-back-home" href="/"><img src="/images/scribble.png" alt="scribble" width="53" height="59"></a>
+<p>{{ site.title }}</p>
+</header>

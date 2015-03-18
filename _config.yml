@@ -1,34 +1,26 @@
-# Site settings
-title: Coffee, Code, Life, Love Shanghai, So Simple —— tommy
-email: tommywu23@126.com
-description: The blog of professional experience in software, and my life are recorded bit by bit
-keywords: ruby, ruby on rails, java, c sharp, javascript, web, c language, linux, android, programming
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tommyknight.cn" # the base hostname & protocol for your site
-google_analytics: UA-53906068-1
-twitter_username: tommywu23
-github_username:  tommywu23
-host: tommyknight.cn
-disqus: disqus.com/embed.js
-cdn_url: http://tommyknight.qiniudn.com
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url.
+signoff:          # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-# Build settings
-markdown: kramdown
-highlighter: null
-safe: false
-permalink: /posts/:year/:month/:day/:title
-paginate: 5
-paginate_path: "/blog/page:num"
-destination: ./_site
-navigation:
-- text: Home
-  url: /
-- text: Blog
-  url: /blog
-- text: Archive
-  url: /archive/
-- text: About
-  url: /about/
-
-exclude:
-  - README.md
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://muan.co
+    external:     true
+  - name:         Email
+    url:          mailto:hello@muan.co
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/muan
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
