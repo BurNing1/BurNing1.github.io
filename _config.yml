@@ -16,7 +16,7 @@ links:
     url:          mailto:hello@muan.co
     external:     true
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/burning1
     external:     true
 highlighter:      pygments
 permalink:        pretty
