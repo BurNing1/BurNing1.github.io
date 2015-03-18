@@ -12,9 +12,9 @@ a:hover{color:#333;}
 *+html .clearfix {zoom:1;}
 
 /* 时间轴样式 */
-.course_nr{height:20px; background:url(../images/ico9.gif) repeat-x center;}
-.course_nr li{ float:left; background:url(../images/ico10.gif) no-repeat center top; padding-top:30px; width:100px; text-align:center; position:relative; margin-top:65px;}
+.course_nr{height:22px; background:url(../images/ico9.gif) repeat-x center;}
+.course_nr li{ float:left; background:url(../images/ico10.gif) no-repeat center top; padding-top:30px; width:100px; text-align:center; position:relative; margin-top: 65px;}
 .course_nr li p{position: fixed; width: 400px;left: 300px;}
-.shiji{ position:absolute; width:100%; left:0; top:-20px; display:none;}
-.shiji p{ line-height:14px; color:#999; margin-top: 10;}
+.shiji{ position:absolute; width:100%; left:0; top:-160px; display:none;}
+.shiji p{ line-height:14px; color:#999; margin-top: 10px;}
 
