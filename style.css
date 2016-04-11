@@ -199,7 +199,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 .alert_bg .alert_mess{
-    margin-top: 80px;
+    margin-top: 100px;
     width: 50%;
     left: 25%;
     position: relative;
@@ -208,7 +208,7 @@
     width: 45%;
     position: absolute;
     left: 0;
-    top: 60px;
+    top: 40px;
     color: rgb(130,131,211);
     text-align: right;
     font-size: 2.2em;
@@ -220,7 +220,7 @@
     width: 55%;
     position: absolute;
     left: 45%;
-    top: 60px;
+    top: 40px;
     color: rgb(235,193,82);
     text-align: left;
     font-size: 2.2em;
