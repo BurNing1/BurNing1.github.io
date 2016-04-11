@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contain{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.containBpx{
+    position: relative;
+}
+.barrageBox{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/barrage.png");
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.barrage_add{
+    position: relative;
+    float: right;
+    margin-right: 2%;
+    margin-top: -9%;
+    width: 13%;
+}
+.barrage_Input{
+    position: relative;
+    float: right;
+    margin-right: 16%;
+    width: 82%;
+    margin-top: -9%;
+}
+.gameBox{
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.gameContain{
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url("image/frame-main.png");
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.gameMoney{
+    padding: 3% 0;
+    display: flex;
+}
+.gameIntroduce{
+    padding: 3% 30px;
+    font-size: 1.74em;
+    color: rgb(130,131,211);
+    font-weight: bold;
+}
+.gameMessage{
+    font-size: 1.85em;
+    color: rgb(130,131,211);
+    font-weight: bold;
+}
+.gameIntroduce > p{
+    margin: 15px 0;
+}
+.gameMain{
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+.gameText{
+    position: relative;
+    top: 30px;
+    font-size: 0.9em;
+    color: rgb(130,131,211);
+}
+.gameButton{
+    position: relative;
+    margin: 60px 0 30px 0;
+    width:30%;
+    left: 35%;
+}
+.frameTitle{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 30px;
+    margin-top: 4%;
+}
+.frameLike{
+    position: absolute;
+    width: 10%;
+    right: 3%;
+    top: 35px;
+    margin-top: 4%;
+}
+.framePeople{
+    position: absolute;
+    top: 30px;
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(198,72,72);
+    font-size: 2em;
+    width: 100%;
+}
+#barrage{
+    position: absolute;
+    top:0;
+}
+.enrollMessage{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    display: inline-flex;
+    color: rgb(130,131,211);
+    font-size:2em;
+}
+.enrollMessage .left{
+    width: 40%;
+    height: 100%;
+    padding-left: 10%;
+}
+.enrollMessage .right{
+    width: 50%;
+    height: 100%;
+}
+.enrollMessage p{
+    margin-top: 20px;
+}
+.matchTitle{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 30px;
+    margin-top: 4%;
+}
+.bonus{
+    width: 33.3333333333%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bonus img{
+    width: 90%;
+}
+.bonus p{
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: rgb(130,131,211);
+
+}
+.messageText{
+    width: 30%;
+    text-align: right;
+    font-size: 1.2em;
+    float: left;
+}
+.messageText p{
+    margin: 60px 40px;
+}
+.messageInput{
+    width: 45%;
+    float: left;
+}
+.messageInput input{
+    width: 100%;
+    height: 60px;
+    margin: 14px 0;
+    border: 4px solid rgb(74,74,134);
+    background-color: rgb(44,46,97);
+    font-size: 1em;
+    color: rgb(235,193,82);
+    padding-left: 40px;
+}
+.messageButton{
+    position: relative;
+    margin: 60px 0;
+    width:30%;
+    left: 5%;
+}
+.alert_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.alert_bg .alert_mess{
+    margin-top: 100px;
+    width: 50%;
+    left: 25%;
+    position: relative;
+}
+.alert_contain_left{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    color: rgb(130,131,211);
+    text-align: right;
+    font-size: 2.2em;
+}
+.alert_contain_left>p{
+    margin: 40px;
+}
+.alert_contain_right{
+    width: 55%;
+    position: absolute;
+    left: 45%;
+    top: 60px;
+    color: rgb(235,193,82);
+    text-align: left;
+    font-size: 2.2em;
+}
+.alert_contain_right>p{
+    margin: 40px 0;
+}
+.messageSure{
+    position: absolute;
+    bottom: 40px;
+    width: 30%;
+    left: 35%;
+}

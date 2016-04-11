@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国手游电子竞技大赛</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script>
+        function check(){
+            var matchID = document.getElementById("matchID").value || "无";
+            var CNName = document.getElementById("CNName").value || "无";
+            var phone = document.getElementById("phone").value || "无";
+            var QQ = document.getElementById("QQ").value || "无";
+            var WeChart = document.getElementById("WeChart").value || "无";
+            var modal = '<div id="alertModal" class="alert_bg"><img src="image/frame-成功.png" class="alert_mess">' +
+                    '<div style="position: relative"><img src="image/报名成功-个人.png" width="100%">' +
+                    '<div class="alert_contain_left"><p>比赛ID</p><p>中文名</p><p>手机</p>' +
+                    '<p>QQ</p><p>微信</p></div><div class="alert_contain_right">' +
+                    '<p>'+matchID+'</p><p>'+CNName+'</p><p>'+phone+'</p><p>'+QQ+'</p><p>'+WeChart+'</p>' +
+                    '</div><img src="image/btn-确认信息.png" onclick="sure()" class="messageSure"></div></div>';
+            $('body').append(modal);
+        }
+        function sure(){
+            $("#alertModal").remove();
+        }
+    </script>
+</head>
+<body background="image/bg.png">
+    <div class="contain">
+        <img src="image/banner%20王者荣耀.png" width="100%" height="100%">
+        <div class="enrollMessage">
+            <div class="left">
+                <p>
+                    <span>比赛项目:</span>
+                    <span>王者荣耀</span>
+                </p>
+                <p>
+                    <span>比赛版本:</span>
+                    <span>Ver 6.4</span>
+                </p>
+            </div>
+            <div class="right">
+                <p>
+                    <span>报名方式:</span>
+                    <span>个人赛</span>
+                </p>
+                <p>
+                    <span>比赛地点:</span>
+                    <span>上海,中国</span>
+                </p>
+            </div>
+        </div>
+        <div class="gameBox">
+            <img src="image/frame-title.png" width="100%">
+            <img class="matchTitle" src="image/money.png">
+            <div class="framePeople">
+                <span >有机会赢取万元大奖</span>
+            </div>
+            <div class="gameContain gameMoney">
+                <div class="bonus">
+                    <img src="image/ico冠军.png">
+                    <p>冠军</p>
+                    <p>
+                        <span>软妹币</span>
+                        <span style="color: rgb(240,173,79)">x50000</span>
+                    </p>
+                </div>
+                <div class="bonus">
+                    <img src="image/ico亚军.png">
+                    <p>亚军</p>
+                    <p>
+                        <span>软妹币</span>
+                        <span style="color: rgb(240,173,79)">x5000</span>
+                    </p>
+                </div>
+                <div class="bonus">
+                    <img src="image/ico季军.png">
+                    <p>季军</p>
+                    <p>
+                        <span>软妹币</span>
+                        <span style="color: rgb(240,173,79)">x2000</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="gameBox">
+            <img src="image/frame-title.png" width="100%">
+            <img class="matchTitle" src="image/introduce.png">
+            <div class="framePeople">
+                <span >更清楚的了解比赛制度</span>
+            </div>
+            <div class="gameContain gameIntroduce">
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+                <p>1、巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+            </div>
+        </div>
+        <div class="gameBox">
+            <img src="image/frame-title.png" width="100%">
+            <img class="matchTitle" src="image/message.png">
+            <div class="framePeople">
+                <span >距离大奖只差这关键一步</span>
+            </div>
+            <div class="gameMessage gameContain">
+                <div class="messageText">
+                    <p>比赛ID</p>
+                    <p>中文名</p>
+                    <p>手机</p>
+                    <p>QQ</p>
+                    <p>微信</p>
+                </div>
+                <div class="messageInput">
+                    <input id="matchID" type="text" style="margin-top: 50px">
+                    <input id="CNName" type="text">
+                    <input id="phone" type="text">
+                    <input id="QQ" type="text" placeholder="选填">
+                    <input id="WeChart" type="text" placeholder="选填">
+                </div>
+                <img class="messageButton" onclick="check()" src="image/btn-确定报名.png" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
