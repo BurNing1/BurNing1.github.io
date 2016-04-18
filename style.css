@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-image: url("image/bg.png");
+    background-image: url("image/bg.png") top center no-repeat fixed;;
     background-attachment: fixed;
 }
 #contain{
