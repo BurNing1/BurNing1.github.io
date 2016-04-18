@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />-->
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
     <title>全国手游电子竞技大赛</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="jquery.min.js"></script>
     <script src="control.js"></script>
 </head>
-<body background="image/bg.png">
-    <div style="width: 100%;">
+<body >
+<div class="background">
+    <div class="SVGModal">
         <svg version="1.1" viewBox='0 0 750 478'
              xmlns="http://www.w3.org/2000/svg">
             <g>
@@ -43,17 +46,18 @@
                 </g>
             </g>
         </svg>
+        <input type="text" id="barrage-input" style="display: none" class="barrageInput">
     </div>
-    <div style="width: 100%">
+    <div class="SVGModal">
         <svg version="1.1" viewBox='0 0 750 830'
              xmlns="http://www.w3.org/2000/svg">
             <g>
+                <image x="40" y="173" width="670" height="733" xlink:href="image/frame_bg.png"></image>
                 <image x="0" y="50" width="750" height="172" xlink:href="image/frame-title.png"></image>
                 <image x="237" y="80" width="275" height="40" xlink:href="image/top-1--王者荣耀.png"></image>
                 <text fill="#ff5454" font-family="microsoft yahei" font-size="25" y="150" x="300">124580&nbsp;&nbsp;人赞</text>
                 <image id="game_one_pressed" x="650" y="90" width="77" height="68" xlink:href="image/btn-like-pressed.png"></image>
                 <image id="game_one_static" style="display: none" x="650" y="90" width="77" height="68" xlink:href="image/btn-like-static.png"></image>
-                <image x="40" y="173" width="670" height="733" xlink:href="image/frame_bg.png"></image>
                 <image x="60" y="200" width="630" height="240" xlink:href="image/banner_王者荣耀.png"></image>
                 <text font-family="microsoft yahei" fill="rgb(130,131,211)" font-size="24" x="60" y="490">王者荣耀是由腾讯游戏开发并运作的一款运营在Android、</text>
                 <text font-family="microsoft yahei" fill="rgb(130,131,211)" font-size="24" x="60" y="520">iOS平台的MOBA雷手游，于2015年11月26日在Android、</text>
@@ -66,16 +70,16 @@
             </g>
         </svg>
     </div>
-    <div style="width: 100%">
+    <div class="SVGModalBottom">
         <svg version="1.1" viewBox='0 0 750 830'
              xmlns="http://www.w3.org/2000/svg">
             <g>
+                <image x="40" y="173" width="670" height="733" xlink:href="image/frame_bg.png"></image>
                 <image x="0" y="50" width="750" height="172" xlink:href="image/frame-title.png"></image>
                 <image x="237" y="80" width="275" height="40" xlink:href="image/top-2--皇室战争.png"></image>
                 <text fill="#ff5454" font-family="microsoft yahei" font-size="25" y="150" x="300">114800&nbsp;&nbsp;人赞</text>
                 <image id="game_two_pressed" style="display: none" x="650" y="90" width="77" height="68" xlink:href="image/btn-like-pressed.png"></image>
                 <image id="game_two_static" x="650" y="90" width="77" height="68" xlink:href="image/btn-like-static.png"></image>
-                <image x="40" y="173" width="670" height="733" xlink:href="image/frame_bg.png"></image>
                 <image x="60" y="200" width="630" height="240" xlink:href="image/banner_皇室战争.png"></image>
                 <text font-family="microsoft yahei" fill="rgb(130,131,211)" font-size="24" x="60" y="490">皇室战争是由腾讯游戏开发并运作的一款运营在Android、</text>
                 <text font-family="microsoft yahei" fill="rgb(130,131,211)" font-size="24" x="60" y="520">iOS平台的MOBA雷手游，于2015年11月26日在Android、</text>
@@ -88,5 +92,6 @@
             </g>
         </svg>
     </div>
+</div>
 </body>
 </html>

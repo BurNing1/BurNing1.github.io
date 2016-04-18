@@ -5,10 +5,12 @@ $(function(){
   $("#barrage-add").click(function(){
     $(this).css("display","none");
     $("#barrage-send").css("display","block");
+    $("#barrage-input").css("display","block");
   });
   $("#barrage-send").click(function(){
     $(this).css("display","none");
     $("#barrage-add").css("display","block");
+    $("#barrage-input").css("display","none");
   });
   $("#personal").click(function(){
     window.location.href='person_page.html';
