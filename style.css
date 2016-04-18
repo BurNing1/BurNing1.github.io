@@ -13,7 +13,7 @@ body{
 }
 .gameContain{
     position: relative;
-    margin-top: -8%;
+    margin-top: -10%;
     margin-right: 6%;
     margin-left: 6%;
     font-size: 16px;
@@ -32,7 +32,7 @@ body{
 .messageText{
     width: 30%;
     text-align: right;
-    font-size: 14px;
+    font-size: 12px;
     float: left;
     color: rgb(130,131,211);
 }
