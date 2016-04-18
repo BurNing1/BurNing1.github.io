@@ -3,7 +3,8 @@
     margin: 0;
 }
 body{
-    background: url("image/bg.png")
+    background: url("image/bg.png");
+    font-family: "微软雅黑"；
 }
 #contain{
     position: relative;
