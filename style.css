@@ -35,7 +35,7 @@ body{
 .messageText{
     width: 30%;
     text-align: right;
-    font-size: 0.8em;
+    font-size: 14px;
     float: left;
     color: rgb(130,131,211);
 }
@@ -51,7 +51,7 @@ body{
     height: 24px;
     border: 1px solid rgb(74,74,134);
     background-color: rgb(44,46,97);
-    font-size: 0.7em;
+    font-size: 20px;
     color: #f6ab00;
     padding-left: 10px;
 }
