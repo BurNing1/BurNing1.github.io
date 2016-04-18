@@ -5,6 +5,9 @@
 body{
     background-image: url("image/bg.png");
     background-attachment: fixed;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
 }
 #contain{
     position: relative;
@@ -32,7 +35,7 @@ body{
 .messageText{
     width: 30%;
     text-align: right;
-    font-size: 1em;
+    font-size: 0.8em;
     float: left;
     color: rgb(130,131,211);
 }
@@ -48,7 +51,7 @@ body{
     height: 24px;
     border: 1px solid rgb(74,74,134);
     background-color: rgb(44,46,97);
-    font-size: 0.5em;
+    font-size: 0.7em;
     color: #f6ab00;
     padding-left: 10px;
 }
