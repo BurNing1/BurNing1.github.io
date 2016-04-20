@@ -4,6 +4,7 @@
 }
 body{
     background: url("image/bg.png");
+    background-attachment: fixed;
     font-family: "微软雅黑"；
 }
 #contain{
